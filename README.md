@@ -32,7 +32,7 @@ We will use Epinions dataset from the paper and extend it with two other dataset
 For our analysis, we will use the results of the reference paper ('Signed Network'), where the big majority (14 out of 16) of triads in the evolving directed network are consistent with status theory. In order to reproduce the conditions of analysis of the paper, we will only consider in our analysis links from A to B where both A and B have **previously** formed a link with X.
 Once we have selected the edges we are interested about, we will perform some data handling and transform our dataset to have the following structure:
 
-| node_A | ratingscores_A | nbrratings_A | anonymity_A | .. | node_B | ratingscores_B | nbrratings_B | anonymity_B | edge_AB
+| node_A | ratingscores_A | nbrratings_A | anonymity_A | .. | node_B | ratingscores_B | nbrratings_B | anonymity_B | edge_AB |
 
 This is not a definitive list of features, some might be added or removed. Once our dataset is correctly constructed, we will perform some data analysis steps to gain some insight on the distribution of the features according to the sign of the edge (higher or lower relative status). We will perform some global analysis (such as distribution of rating scores of A) as well as some pairwise analysis to identify the relationships between A and B.
 
