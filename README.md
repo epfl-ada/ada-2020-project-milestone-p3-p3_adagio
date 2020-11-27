@@ -1,4 +1,4 @@
-Title: What is actually status?
+# What is actually status?
 
 ## Abstract
 The paper “Signed Networks in Social Media” motivates towards the formulation of the theory of status in predicting network structures. Implicit notions of status already exist in modern social media like the number of Instagram followers or karma in Reddit. However, this work does not attempt to relate status to this more intuitive notion we observe in real life. It limits analysis to more relative comparisons between neighboring nodes in local triads. To that end, we attempt to flesh out this notion of status in a more global sense. We use an extended version of the Epinions dataset which contains additional information beyond the signed network. Features such as the nature as well as the number of reviews (user activeness), and user anonymity, should intuitively play a strong role in determining his status within the social media hierarchy and we explore this relationship in this study.
